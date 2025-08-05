@@ -1,5 +1,12 @@
 # Blackjack Monte Carlo Sim
 
+This is a small Monto Carlo Simulator for Blackjack odds using Rust to run our simulation and displayed on a Vue.js frontend.
+The rest of this README shows the project working, and then describes installation and setup.
+
+## Video Demo
+
+[![Watch the demo here](http://img.youtube.com/vi/iJiACsxxViM/0.jpg)](http://www.youtube.com/watch?v=iJiACsxxViM "COSC473 Black Jack Monte Carlo Rust Demo")
+
 ## How to Run: 
 
 #### Install Rust
@@ -11,11 +18,11 @@ This project requires rust to run. Follow https://www.rust-lang.org/tools/instal
 Open a terminal and enter the following commands
 
 ```
-git clone https://eng-git.canterbury.ac.nz/rsc104/COSC473-Assignment1.git
+git clone https://github.com/ryanscofield03/COSC473-BlackJack-MonteCarlo-Rust.git
 ```
 
 ```
-cd COSC473-Assignment1
+cd COSC473-BlackJack-MonteCarlo-Rust
 ```
 
 ```
@@ -26,6 +33,10 @@ npm install
 
 ```
 cd wasm-module
+```
+
+```
+cargo install wasm-pack
 ```
 
 ```
@@ -46,4 +57,4 @@ npm run build
 ```
 npm run preview
 ```
-Open http://localhost:4173/ (or the port given in the terminal). This is where the frontend of this app will be running!
+Open http://localhost:4173/ (or the port given in the terminal). This is where the frontend of this app will be running!  
