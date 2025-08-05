@@ -7,7 +7,7 @@ The rest of this README shows the project working, and then describes installati
 
 <div align="center">
   <a href="http://www.youtube.com/watch?v=iJiACsxxViM" title="COSC473 Black Jack Monte Carlo Rust Demo">
-    <img src="http://img.youtube.com/vi/iJiACsxxViM/0.jpg" alt="Watch the demo here" style="width: 80%;" />
+    <img src="http://img.youtube.com/vi/iJiACsxxViM/0.jpg" alt="Watch the demo here" style="width: 50%;" />
   </a>
 </div>
 
