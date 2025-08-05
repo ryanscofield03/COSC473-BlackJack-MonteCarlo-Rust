@@ -1,0 +1,82 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+spacer {
+  display: flex;
+  height: 16px;
+}
+
+h1, h2 {
+  color: #c3ffc0;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+h3, h4 {
+  color: #ffffff;
+}
+
+.btn {
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: rgba(195, 255, 192, 0.44);
+}
+
+.btn-primary:hover {
+  background-color: rgba(91, 115, 89, 0.44);
+}
+
+.btn-error {
+  background-color: rgba(255,117,117,0.44);
+}
+
+.btn-error:hover {
+  background-color: rgba(185, 85, 85, 0.44);
+}
+
+.btn-disabled {
+  background-color: rgba(166,166,166,0.63)
+}
+
+.btn-disabled:hover {
+  background-color: rgba(98, 98, 98, 0.63)
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    padding: 0 2rem;
+  }
+}
